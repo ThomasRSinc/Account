@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Account</string>
+    <string name="title_activity_test">testActivity</string>
+
+    <string name="databaseErrorMessage">Error retrieving data from the database (there is probably just no records yet).</string>
+    <string name="addNewDatabaseEntry">Add a new record</string>
+    <string name="submit">Submit</string>
+
+    <string name="main_txtMain">ACCOUNT</string>
+    <string name="main_txtMainStatus">STATUS</string>
+    <string name="main_btnAlerts">Alerts</string>
+    <string name="main_btnManageServices">Manage Services</string>
+    <string name="main_btnManageAccounts">Manage Accounts</string>
+    <string name="main_btnViewAll">View All Accounts</string>
+
+    <string name="settings_testNotification">Send A Test Notification</string>
+    <string name="settings_NotificationsPrefTitle">Notifications</string>
+    <string name="settings_NotificationsTitle">Toggle Notifications</string>
+    <string name="settings_NotificationsOff">Notifications are turned off.</string>
+    <string name="settings_NotificationsOn">Notifications are turned on.</string>
+    <string name="settings_ButtonsPrefTitle">Buttons</string>
+
+    <string name="services_txtManageServicesTitle">SERVICES</string>
+
+    <string name="services_txtAddServiceTitle">ADD A SERVICE</string>
+    <string name="services_txtAddServiceInputName">Service Name</string>
+    <string name="services_txtAddServiceInputDomain">Website Domain</string>
+
+    <string name="accounts_txtManageAccountsTitle">ACCOUNTS</string>
+
+    <string name="accounts_txtAllAccounts">No accounts to show</string>
+
+    <string name="accounts_txtAddAccountTitle">ADD AN ACCOUNT</string>
+    <string name="accounts_txtAddAccountInputServiceID">Service ID</string>
+    <string name="accounts_txtAddAccountInputName">Account Name</string>
+    <string name="accounts_txtAddAccountInputEmail">Login Email</string>
+    <string name="accounts_txtAddAccountInputPhone">Login Phone</string>
+    <string name="accounts_txtAddAccountInputSSO">SSO Account ID</string>
+    <string name="accounts_txtAddAccountCheckboxPassword">Uses Password</string>
+    <string name="accounts_txtAddAccountCheckboxEmail">Email Security</string>
+    <string name="accounts_txtAddAccountCheckboxPhone">Phone Security</string>
+    <string name="accounts_txtAddAccountCheckboxOTP">One-Time Codes</string>
+    <string name="accounts_txtAddAccountCheckboxSecurityKey">Security Key</string>
+    <string name="accounts_txtAddAccountCheckboxQuestions">Security Questions</string>
+    <string name="accounts_txtAddAccountCheckboxBackupCodes">Backup Codes</string>
+    <string name="accounts_txtAddAccountCheckboxAppPinCode">App PIN Code</string>
+    <string name="accounts_txtAddAccountCheckboxAppBiometrics">App Biometrics</string>
+    <string name="accounts_txtAddAccountCheckboxAppNotifications">App Push Notifications</string>
+    <string name="accounts_txtAddAccountInputOtherSecurity">Other Security Method</string>
+
+
+    <string name="alerts_txtAlertTitle">ALERTS</string>
+    <string name="alerts_txtPassword">- Ensure that your passwords are strong and unique (not re-used across accounts)\n- Consider using a password manager</string>
+    <string name="alerts_txtEmail">- Check your email for data breaches using HaveIBeenPwned</string>
+    <string name="alerts_txtApp">- Consider using security methods such as biometrics on your smartphone and in-app\n- Consider using a one-time password app for multi-factor authentication</string>
+    <string name="alerts_txtPhone">- Consider removing SMS (text message) authentication if possible, as it is insecure and vulnerable to various attacks</string>
+    <string name="alerts_txtSSO">- Review your Single Sign-On (SSO) linked accounts and ensure they are properly protected</string>
+    <string name="alerts_txtSecurityKey">- Consider adding a physical security key as an account recovery method</string>
+    <string name="alerts_txtGeneralSecurity">- Keep backup codes stored securely\n- Ensure your security question answers are up-to-date and not easily discoverable by strangers</string>
+
+    <string name="help_aboutHeading">About The App</string>
+    <string name="help_aboutText1">This app is an online accounts manager, but not a password manager. Its primary purpose is to act as a record of what security methods you have on your accounts, and identify any potential issues with those.</string>
+    <string name="help_aboutText2">Please note that this app is currently designed and intended for use on handheld portrait-oriented mobile devices such as smartphones and tablets.</string>
+    <string name="help_usageHeading">How To Use The App</string>
+    <string name="help_usageText1">First add an online service that you have an account(s) with the "Manage Services" page. Enter its name and website domain and save.</string>
+    <string name="help_usageText2">Next, add an account using "Manage Accounts". Select the service, then enter the methods for how you login - if its a Single Sign-On (SSO), select the parent account.</string>
+    <string name="help_usageText3">Also select what security methods you use for accessing the service, such as a password and/or phone login (text messages) for their website, or biometrics (fingerprint, face ID) on their app.</string>
+    <string name="help_usageText4">Once that\'s saved, you can edit it later using the same page, or view the record using "View All Accounts". These pages have an option to open \'HaveIBeenPwned\' to check if your email has been involved in a data breach.</string>
+    <string name="help_usageText5">You can also view any security alerts using the "Alerts" page. The settings page will let you control the weekly notifications that will appear if you have unresolved alerts.</string>
+
+
+
+    <!-- Default strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

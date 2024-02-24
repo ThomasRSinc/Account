@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/grey"
+    tools:context=".settings.SettingsActivity">
+
+    <PreferenceCategory app:title="@string/settings_NotificationsPrefTitle">
+        <SwitchPreferenceCompat
+            app:key="notificationsToggle"
+            app:title="@string/settings_NotificationsTitle"
+            app:defaultValue="true"
+            app:summaryOff="@string/settings_NotificationsOff"
+            app:summaryOn="@string/settings_NotificationsOn" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/settings_ButtonsPrefTitle" />
+
+</PreferenceScreen>
