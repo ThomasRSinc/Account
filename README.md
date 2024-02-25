@@ -7,7 +7,7 @@ An online account manager app for Android 8+ (API 26+)
 - Functionality to add a service and associate accounts with it, and record account details
 - Multiple screen layouts (views), activities, interactions, flexible and responsive UI
 - Two linked SQL databases with built-in error checking and input validation
-- Timed reminder notifications
+- Recommendation alerts and timed reminder notifications
 - Clearbit free API for grabbing service logos based on domain
 - Auth types: password, phone, one-time code, security key, security question, backup codes, app pin code, app biometrics, app push notification, other (custom)
 
