@@ -1,5 +1,5 @@
 # Account
-An online account manager app for Android 8+ (API 26+)
+A security-focused online account manager app for Android 8+ (API 26+)
 **(24 May 2023)**
 
 3rd year university project (CMP309) of an Android app combining several features and views. Written in Java. Tested up to Android 13 (API 33).
