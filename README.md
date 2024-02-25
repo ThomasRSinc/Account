@@ -25,6 +25,8 @@ Think, for example of an account used frequently for SSO itself having no (or we
 
 This is quite rudimentary and messy, but I'm putting it here as a sort of proof of concept and because I think there should be a professional version of something like this.
 
+I couldn't find any service like this that maps out accounts and identifies security weaknesses and oversights, so decided to make a prototype of sorts myself.
+
 My original idea was admittedly ambitious. Due to time constraints and other factors I couldn't realise as much of it as I would have liked, but the basic idea is there at least.
 
 Some things are included (either purely or incompletely) because that's what the module leader wanted. Security could also be greatly improved. The files included are just taken from the Android Studio IDE and should be enough for a successful import to view the code.
