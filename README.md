@@ -27,4 +27,4 @@ This is quite rudimentary and messy, but I'm putting it here as a sort of proof 
 
 My original idea was admittedly ambitious. Due to time constraints and other factors I couldn't realise as much of it as I would have liked, but the basic idea is there at least.
 
-Some things are included (either purely or incompletely) because that's what the module leader wanted. Security could also be greatly improved. The files included are just taken from the Android Studio IDE, and should be enough for a successful import to view the code.
+Some things are included (either purely or incompletely) because that's what the module leader wanted. Security could also be greatly improved. The files included are just taken from the Android Studio IDE and should be enough for a successful import to view the code.
